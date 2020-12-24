@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html, body{
-            height: 100%;
-            width: 100%;
-            border: 0;
-        }
-    </style>
+    <title>College Library Management System</title>
+    <!--Link to Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="webpage/css/style.css">
+    <!--Link to google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Sansita+Swashed&display=swap" rel="stylesheet">
+
 </head>
-<body style="margin: 0;">
-    <iframe src="https://onedrive.live.com/embed?cid=6C21C5BB43351D2E&resid=6C21C5BB43351D2E%214190&authkey=AFLB2IXG9e6rzt0&em=2" title="Documentation" width="100%" height="100%" </iframe>
+
+<body>
+    <div class="header">
+        <p class="title">
+            College Library Management System
+        </p>
+    </div>
+
+    <div class="container-fluid h-100 f-c">
+        <div class="row h-100 m-0">
+            <div id="view-ppt" class="col-sm-12 t-c">
+                <p class="text"><a class="text" id="ppt" href="webpage/view_presentation.html">Play Presentation</a></p>
+            </div>
+            <div id="view-docs" class="col-sm-12 m-c">
+                <p class="text"><a class="text" id="docs" href="webpage/read_documentation.html">Read Documentation</a></p>
+            </div>
+
+            <div id="view-sc" class="col-sm-12 b-c">
+                <p class="text">view source code</p>
+            </div>
+            <div id="dload-project" class="col-sm-12 l-c">
+                <p class="text">Download Project</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Link to Bootstrap js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous">
+        </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+        </script>
+    <script src="webpage/js/div_click.js"></script>
 </body>
+
 </html>
