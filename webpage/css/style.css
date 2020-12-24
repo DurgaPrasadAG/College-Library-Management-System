@@ -1,0 +1,87 @@
+/* view iframe in full screen */
+.iframe-view{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+html, body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+.title{
+    background-color: #ec5858;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+    padding: 15px 25px 25px;
+}
+
+.text{
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif; 
+    text-align: center;
+    padding: 5%;
+    text-decoration: none;
+}
+
+#ppt {
+    color: #f1f1f1;
+}
+
+#docs {
+    color: #7c6161;
+}
+
+#view-sc:hover{
+    background: rgb(112,106,222);
+    background: radial-gradient(circle, rgba(112,106,222,1) 29%, rgba(91,193,214,1) 100%); 
+}
+
+.t-c{
+    vertical-align: middle;
+    background-color: #fd8c04;
+}
+
+.t-c:hover{
+    background: rgb(117,228,251);
+    background: radial-gradient(circle, #fc8719 50%, #da403b 102%); }
+
+.m-c{
+    background-color: #edf285;
+}
+
+.m-c:hover{
+    background-color: #7ee8fa;
+    background-image: radial-gradient(circle, #fcdc50 50%, #ebcb9a 102%);
+}
+
+#dload-project:hover{
+    background-color: #7ee8fa;
+    background-image: radial-gradient(circle, #50fcb4 50%, #269c9c 102%);
+}
+
+.b-c{
+    background-color: #93abd3;
+}
+
+.l-c{
+    background-color: #93d3ba;
+}
+
+.f-c{
+    background-color: rgb(8, 8, 8);
+    margin: 0;
+    padding: 0;
+}
