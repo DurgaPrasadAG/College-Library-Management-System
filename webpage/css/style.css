@@ -35,16 +35,12 @@ html, body{
     margin: auto;
 }
 
-#ppt {
+#ppt, #sourcecode, #download{
     color: white;
 }
 
 #docs {
     color: #7c6161;
-}
-
-#sourcecode{
-    color: white;
 }
 
 #view-sc:hover{
@@ -99,6 +95,6 @@ html, body{
 }
 
 .text{
-    font-size: 25px;
+    font-size: 20px;
 }
 }
