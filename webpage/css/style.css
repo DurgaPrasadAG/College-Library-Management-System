@@ -28,12 +28,11 @@ html, body{
 
 .text{
     color: white;
-    vertical-align: middle;
     font-size: 30px;
     font-family: 'Rubik', sans-serif; 
     text-align: center;
-    padding: 5%;
     text-decoration: none;
+    margin: auto;
 }
 
 #ppt {
@@ -50,8 +49,8 @@ html, body{
 }
 
 .t-c{
-    vertical-align: middle;
     background-color: #fd8c04;
+    display: grid;
 }
 
 .t-c:hover{
@@ -60,6 +59,7 @@ html, body{
 
 .m-c{
     background-color: #edf285;
+    display: grid;
 }
 
 .m-c:hover{
@@ -74,10 +74,12 @@ html, body{
 
 .b-c{
     background-color: #93abd3;
+    display: grid;
 }
 
 .l-c{
     background-color: #93d3ba;
+    display: grid;
 }
 
 .f-c{
