@@ -36,16 +36,20 @@ html, body{
 }
 
 #ppt {
-    color: #f1f1f1;
+    color: white;
 }
 
 #docs {
     color: #7c6161;
 }
 
+#sourcecode{
+    color: white;
+}
+
 #view-sc:hover{
     background: rgb(112,106,222);
-    background: radial-gradient(circle, rgba(112,106,222,1) 29%, rgba(91,193,214,1) 100%); 
+    background: radial-gradient(circle, rgba(112,106,222,1) 50%, rgba(91,193,214,1) 102%); 
 }
 
 .t-c{
